@@ -142,6 +142,7 @@ figure {
 }
 .fh5co-projects-feed .fh5co-project > a img {
   margin-bottom: 30px;
+  max-width: 290px;
 }
 .fh5co-projects-feed .fh5co-project > a h2 {
   font-size: 14px;
