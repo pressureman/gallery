@@ -24,6 +24,16 @@ body.fh5co-offcanvas {
   overflow: hidden;
 }
 
+.block-sidebar{
+	position:fixed;
+	right:15px;
+	width:40px;
+	height:36px;
+	background-color:#333;
+	cursor:pointer;
+	box-shadow:0 1px 3px rgba(0,0,0,.2);
+}
+
 a {
   color: #2da9d7;
   -webkit-transition: 0.5s;
