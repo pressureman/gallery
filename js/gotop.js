@@ -1,21 +1,19 @@
-<script>    
-$(document).ready(function(){
-	$("#gotop").hide();
- 
-	$(function () {
-		$(window).scroll(function(){
-			if ($(window).scrollTop()>600){
-				$("#gotop").fadeIn(500);
-			}
-				else{
-					$("#gotop").fadeOut(500);
-				}		
-		});
-
-			$("#gotop").click(function(){
-				$('body,html').animate({scrollTop:0},500);
-				return false;
-			});
-	});
-});
-</script>
+<script type="text/javascript">
+        $(window).bind('scroll',function(){
+            var len=$(this).scrollTop()
+            if(len>=100){
+                //显示回到顶部按钮
+                $('#gotop').show();
+            }else{
+                //影藏回到顶部按钮
+                $('#gotop').hide();
+            }
+        })
+        //绑定回到顶部按钮的点击事件
+        $('#gotop').click(function(){
+            //动画效果，平滑滚动回到顶部
+            $(document).animate({ scrollTop: 0 });
+            //不需要动画则直接
+            //$(document).scrollTop(0)
+        })
+    </script>
