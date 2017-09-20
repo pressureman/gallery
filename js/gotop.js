@@ -1,14 +1,15 @@
 <script type="text/javascript">
 
         $(window).bind('scroll',function(){
-            var len=$(this).scrollTop()
-            if(len>=300){
-                $(".gotop").fadeIn(1000);
+            var len=$(window).scrollTop()
+            if(len>=0){
+                $("#return").css({'display' : 'block'})
             }else{
-                $(".gotop").fadeOut(1000);
+                $("#return").css({'display' : 'none'})
             }
         })
-        $(".gotop").click(function(){
+		
+        $("#return").click(function(){
             $('body').animate({ scrollTop:0},1000);
         })
     </script>
