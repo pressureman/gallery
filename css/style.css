@@ -24,7 +24,12 @@ body.fh5co-offcanvas {
   overflow: hidden;
 }
 
-.return{
+.return-top{
+	display:block;
+	
+}
+
+.com-return{
 	position:fixed;
 	bottom:30px;
 	right:30px;
@@ -33,6 +38,8 @@ body.fh5co-offcanvas {
 	background-color:#333;
 	cursor:pointer;
 	box-shadow:0 1px 3px rgba(0,0,0,.2);
+		.com-return{display:none;}
+		.com-return:hover{background-color:#111;}
 }
 
 a {
