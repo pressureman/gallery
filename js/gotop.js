@@ -1,19 +1,15 @@
 <script type="text/javascript">
+
         $(window).bind('scroll',function(){
             var len=$(this).scrollTop()
-            if(len>=100){
-                //显示回到顶部按钮
-                $('#gotop').show();
+            if(len>=300){
+                $("#gotop").fadeIn(1000);
             }else{
-                //影藏回到顶部按钮
-                $('#gotop').hide();
+                $("#gotop").fadeOut(1000);
             }
         })
-        //绑定回到顶部按钮的点击事件
-        $('#gotop').click(function(){
-            //动画效果，平滑滚动回到顶部
-            $(document).animate({ scrollTop: 0 });
-            //不需要动画则直接
-            //$(document).scrollTop(0)
+        $("#gotop").click(function(){
+            $('body').animate({ scrollTop:0},1000);
         })
     </script>
+	
