@@ -29,7 +29,7 @@ body.fh5co-offcanvas {
 	
 }
 
-.com-return{
+.return-top{
 	position:fixed;
 	bottom:30px;
 	right:30px;
@@ -40,7 +40,7 @@ body.fh5co-offcanvas {
 	box-shadow:0 1px 3px rgba(0,0,0,.2);
 	display:none;
 }
-.com-return:hover{
+.return:hover{
 	background-color:#888;
 }
 
