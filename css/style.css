@@ -38,9 +38,12 @@ body.fh5co-offcanvas {
 	background-color:#333;
 	cursor:pointer;
 	box-shadow:0 1px 3px rgba(0,0,0,.2);
-		.com-return{display:none;}
-		.com-return:hover{background-color:#111;}
+	display:none;
 }
+.com-return:hover{
+	background-color:#111;
+}
+
 
 a {
   color: #2da9d7;
