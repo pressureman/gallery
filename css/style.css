@@ -26,7 +26,8 @@ body.fh5co-offcanvas {
 
 .gotop{
 	position:fixed;
-	right:15px;
+	bottom:30px;
+	right:30px;
 	width:40px;
 	height:36px;
 	background-color:#333;
