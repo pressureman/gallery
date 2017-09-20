@@ -25,18 +25,28 @@ body.fh5co-offcanvas {
 }
 
 
-.return-top{
+.return{
 	position:fixed;
 	bottom:30px;
 	right:30px;
 	width:40px;
 	height:36px;
-	background-color:#333;
+	background-color:#eee;	
+	display:block;
 	cursor:pointer;
-	box-shadow:0 1px 3px rgba(0,0,0,.2);
+	box-shadow:0 1.5px 5px rgba(0,0,0,.3);
+	opacity:0.5;
 }
 .return:hover{
-	background-color:#888;
+	background-color:#ccc;
+}
+
+.return > img{
+	max-width:30px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:9px;
+	margin-bottom:9px;
 }
 
 
