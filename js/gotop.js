@@ -3,13 +3,13 @@
         $(window).bind('scroll',function(){
             var len=$(window).scrollTop()
             if(len>=0){
-                $("#return-top").css({'display' : 'block'})
+                $("#com-return").css({'display' : 'block'})
             }else{
-                $("#return-top").css({'display' : 'none'})
+                $("#com-return").css({'display' : 'none'})
             }
         })
 		
-        $("#return-top").click(function(){
+        $("#com-return").click(function(){
             $('body').animate({ scrollTop:0},1000);
         })
     </script>
