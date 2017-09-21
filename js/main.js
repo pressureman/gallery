@@ -8,10 +8,10 @@
 		$container.masonry({
 			itemSelector : '.fh5co-project',
 			columnWidth: function( containerWidth ) {
-				if( containerWidth <= 330 ) {
+				if( containerWidth <= 334	 ) {
 					return 310;
 				} else {
-					return 330;
+					return 334;
 				}
 			},
 

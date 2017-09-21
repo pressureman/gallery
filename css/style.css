@@ -18,36 +18,44 @@ body {
   background: #fff;
   color: #848484;
   font-weight: 300;
-  overflow-x: hidden;
+  overflow-x: hidden;.container
 }
 body.fh5co-offcanvas {
   overflow: hidden;
 }
 
 
-.return{
+#gototop{
 	position:fixed;
-	bottom:30px;
+	bottom:40px;
 	right:30px;
 	width:40px;
 	height:36px;
-	background-color:#eee;	
+	background-color:#000;	
 	display:block;
 	cursor:pointer;
 	box-shadow:0 1.5px 5px rgba(0,0,0,.3);
-	opacity:0.5;
+	z-index:999;
+	opacity:0.7;
 }
-.return:hover{
-	background-color:#ccc;
+#gototop:hover{
+	background-color:#555;
 }
 
-.return > img{
-	max-width:30px;
-	margin-left:5px;
-	margin-right:5px;
-	margin-top:9px;
-	margin-bottom:9px;
+#gototop > img{
+	max-width:20px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:12px;
+	margin-bottom:12px;
 }
+
+
+.container{
+	padding-left:0px;
+	padding-right:50px;
+}
+
 
 
 a {
@@ -105,7 +113,7 @@ figure {
   max-width: 100%;
 }
 #fh5co-header nav {
-  padding-top: 20px;
+  padding-top: 60px;
 }
 #fh5co-header nav ul {
   padding: 0;
@@ -154,7 +162,7 @@ figure {
 
 .fh5co-projects-feed .fh5co-project {
   float: left;
-  margin: 20px 20px 20px;
+  margin: 20px 22px 20px;
   width: 290px;
 }
 @media screen and (max-width: 480px) {
@@ -271,7 +279,7 @@ figure {
 }
 
 .pt70 {
-  padding-top: 70px;
+  padding-top: 30px;
 }
 @media screen and (max-width: 480px) {
   .pt70 {
