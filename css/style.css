@@ -24,7 +24,6 @@ body.fh5co-offcanvas {
   overflow: hidden;
 }
 
-
 #gototop{
 	position:fixed;
 	bottom:40px;
@@ -50,13 +49,10 @@ body.fh5co-offcanvas {
 	margin-bottom:12px;
 }
 
-
 .container{
 	padding-left:0px;
 	padding-right:50px;
 }
-
-
 
 a {
   color: #2da9d7;
@@ -165,6 +161,7 @@ figure {
   margin: 20px 22px 20px;
   width: 290px;
 }
+
 @media screen and (max-width: 480px) {
   .fh5co-projects-feed .fh5co-project {
     margin: 10px 10px 10px;
@@ -185,6 +182,12 @@ figure {
   -o-transition: 0.3s;
   transition: 0.3s;
 }
+
+.fh5co-projects-feed .fh5co-project:hover {
+	box-shadow:0px 10px 25px #eee;
+	transition-duration: 2s;
+}
+
 .fh5co-projects-feed .fh5co-project > a:hover h2, .fh5co-projects-feed .fh5co-project > a:active h2, .fh5co-projects-feed .fh5co-project > a:focus h2 {
   color: #000;
 }
@@ -207,9 +210,9 @@ figure {
 
 .page-content {
   margin: 0 auto;
-  max-width: 620px;
+  max-width: 900px;
   width: 100%;
-  padding-top: 70px;
+  padding-top: 40px;
   padding-bottom: 70px;
 }
 .page-content img {
@@ -222,7 +225,7 @@ figure {
   }
 }
 .page-content .mb0 {
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 .page-content .meta {
   margin-bottom: 20px;
@@ -279,7 +282,7 @@ figure {
 }
 
 .pt70 {
-  padding-top: 30px;
+  padding-top: 40px;
 }
 @media screen and (max-width: 480px) {
   .pt70 {
