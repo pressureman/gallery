@@ -12,7 +12,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Inherit", Arial, serif;
+  font-family: "Roboto", Arial, serif;
   line-height: 1.8;
   font-size: 16px;
   background: #fff;
@@ -75,6 +75,13 @@ p, ul, ol {
   font-family: "Roboto", Arial, serif;
 }
 
+.contact-text{
+  margin-bottom:816px;	
+	
+	
+}
+
+
 h1, h2, h3, h4, h5, h6 {
   color: #212121;
   font-family: "Roboto", Arial, serif;
@@ -102,7 +109,7 @@ figure {
 }
 
 #fh5co-header {
-  padding-top: 40px;
+  padding-top: 44px;
   margin-bottom: 30px;
 }
 #fh5co-header #fh5co-logo img {
