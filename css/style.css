@@ -12,7 +12,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Roboto", Arial, serif;
+  font-family: "inherit", Arial, serif;
   line-height: 1.8;
   font-size: 16px;
   background: #fff;
@@ -50,7 +50,7 @@ body.fh5co-offcanvas {
 }
 
 .container{
-	padding-left:0px;
+	padding-left:50px;
 	padding-right:50px;
 }
 
